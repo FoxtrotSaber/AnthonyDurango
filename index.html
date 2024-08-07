@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="icon" type="png" href="images/icon.png" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" href="images/icon.png" />
+<link rel="apple-touch-icon" href="images/icon.png" />
+
+<title>
+
+Rogelio Cáceres | Portafolio
+
+</title>
+
+
+<head>
+
+
+<link rel="icon" type="png" href="pages/images/icon.png" />
+
+
+<title>
+
+Rogelio Cáceres | Portafolio
+
+</title>
+
+<meta property="og:title" content="Rogelio Anthony" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://foxtrotsaber.github.io/proyecto-gladis/" />
+<meta property="og:image" content="https://raw.githubusercontent.com/FoxtrotSaber/proyecto-gladis/main/pages/images/metahellstrike.jpg" />
+<meta property="og:description" content="Portafolio Rogelio Caceres" />
+<meta name="theme-color" content="black">
+
+<meta name="twitter:card" content="summary_large_image">
+
+<style>
+body {
+	margin: 0;
+	font-family: play;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: #ffffff 1px solid;
+}
+
+
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: white;
+  color: black;
+}
+
+.active {
+    position: absolute;
+    background-color: #ffffff00;
+    color: black;
+    width: 39px;
+    height: 18px;
+    background: url(pages/images/hsmenuicon.png);
+    right: 0px;
+}
+
+iframe {
+    position: absolute;
+    width: 100%;
+    border: none;
+	transition: 0.5s;
+}
+
+.mobilemenu a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.home {
+    float: left;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    width: 70%;
+}
+
+.home a {
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 0px;
+    text-decoration: none;
+    width: 100%;
+}
+
+
+.home a:hover {
+  color: black;
+  background-color: white;
+}
+
+.hell {
+  float: right; 
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  width: 15%;
+}
+
+.hell a {
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 0px;
+    text-decoration: none;
+    width: 100%;
+	height: 47px;
+	height: 19px;
+	background: url(pages/images/hsmenuiconmobile.png);
+    background-size: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hell a:hover {
+  background: url(pages/images/hsmenuiconmobilehover.png);
+  background-size: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    width: 15%;
+}
+
+
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  width: 100%;
+  height: 47px;
+  background: url(pages/base/mobilebutton.png);
+  background-size: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dropdown .dropbtn:hover {
+  background: url(pages/base/mobilebuttonhover.png);
+  background-size: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #ffffffe0;
+    width: 70%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.icon-bar {
+	position: fixed;
+	left: -103px;
+	bottom: 4%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	
+}
+
+
+.iconsb {
+	display: flex;
+	-webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    opacity: 0.5;
+	transition: all .5s;
+}
+
+.iconsb:hover {
+	padding-left: 6.3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba;
+	opacity: 1;
+}
+
+
+@media screen and (max-width:1023px) {
+	ul {
+	  display: none;
+	}
+}
+
+@media screen and (max-width:1023px) {
+	li {
+	  display: none;
+	}
+}
+
+@media screen and (max-width:1023px) {
+	.mobilemenu {
+	  overflow: hidden;
+	  background-color: black;
+	  position: fixed;
+	  width: 100%;
+	}
+}
+
+@keyframes transitionIn {
+	from {
+		opacity: 0;
+		transform: rotateX(-10deg);
+	}
+	
+	to {
+		opacity: 1;
+		transform: rotateX(0);
+	}
+}
+
+
+
+
+</style>
+
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+  const button = document.getElementById('dropdownButton');
+  const content = document.getElementById('dropdownContent');
+
+  button.addEventListener('click', function(event) {
+    // Prevenir que el evento se propague al window
+    event.stopPropagation();
+    if (content.style.display === 'block') {
+      content.style.display = 'none';
+    } else {
+      content.style.display = 'block';
+    }
+  });
+
+  // Cerrar el dropdown si se hace clic fuera del mismo
+  window.addEventListener('click', function() {
+    content.style.display = 'none';
+  });
+
+  // Prevenir que el evento se propague al window si se hace clic en el contenido del dropdown
+  content.addEventListener('click', function(event) {
+    event.stopPropagation();
+  });
+});
+
+</script>
+
+
+</head>
+<body>
+
+<iframe width="100%" height="100%" src="pages/backgrounds/walls.html" name="walls"></iframe>
+
+<iframe width="100%" height="100%" src="pages/hell_base.html" name="iframe_a"></iframe>
+
+
+<ul>
+  
+  <li><a href="index.html">Inicio</a></li>
+  <li><a href="pages/mainpage.html" target="iframe_a">Menu</a></li>
+  <li><a href="pages/sobremi.html" target="iframe_a">Sobre Mi</a></li>
+  <li><a href="pages/proyectos.html" target="iframe_a">Proyectos</a></li>
+  <li><a href="pages/disenos.html" target="iframe_a">Diseños</a></li>
+  <li><a href="pages/contactos.html" target="iframe_a">Contacto</a></li>
+  <li><a class="active" href="pages/hell.html" target="iframe_a"></a></li>
+</ul>
+
+
+
+<div class="mobilemenu">
+<div class="dropdown">
+	<button id="dropdownButton" class="dropbtn"></button>
+    <div id="dropdownContent" class="dropdown-content">
+      <a href="index.html" target="iframe_a">Inicio</a>
+      <a href="pages/mainpage.html" target="iframe_a">Menu</a>
+	  <a href="pages/sobremi.html" target="iframe_a">Sobre Mi</a>
+	  <a href="pages/proyectos.html" target="iframe_a">Proyectos</a>
+	  <a href="pages/disenos.html" target="iframe_a">Diseños</a>
+	  <a href="pages/contactos.html" target="iframe_a">Contacto</a>
+    </div>
+  </div>
+  <div class="hell"><a href="pages/hell.html" target="iframe_a"></a></div>
+   
+</div>
+
+
+<div class="icon-bar">
+  <a href="https://www.linkedin.com/in/rogelio-caceres/" target="_blank" class="iconsb"><img  src="pages\images\iconsb_tab1.png" width="150px" ></a> 
+  <a href="mailto:tonydurango26@gmail.com"  class="iconsb"><img src="pages\images\iconsb_tab2.png" width="150px" ></a> 
+  <a href="https://www.youtube.com/channel/UCQ5PovR35CpUhC5HXdaHbYw" target="_blank" class="iconsb"><img src="pages\images\iconsb_tab3.png" width="150px" ></a> 
+  <a href="https://wa.me/50764665797" target="_blank" class="iconsb"><img src="pages\images\iconsb_tab4.png" width="150px" ></a>
+  <a href="https://github.com/FoxtrotSaber" target="_blank" class="iconsb"><img src="pages\images\iconsb_tab5.png" width="150px" ></a> 
+</div>
+
+
+</body>
+</html>
+

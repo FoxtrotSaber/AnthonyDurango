@@ -1,0 +1,98 @@
+<html>
+<head>
+
+<link rel="icon" type="png" href="images/icon.png" />
+
+<title>
+
+Gladis
+
+</title>
+
+
+<style>
+
+
+
+body {
+    display: block;
+    margin: 0px;
+	animation: transitionIn 0.75s;
+	font-family: play;
+}
+
+
+
+
+.presentacion {
+    position: relative;
+    background: #00000087;
+    width: 100%;
+    padding: 20px 0;
+    top: 25%;
+}
+
+.presentacion p {
+    text-decoration: none;
+    position: relative;
+    color: #e5e5e5;
+    font-size: 40px;
+    padding: 0rem 8rem;
+    max-width: 40%;
+}
+
+
+.perfil {
+    position: fixed;
+    height: 80%;
+    left: 50%;
+    top: 10%;
+}
+
+@keyframes transitionIn {
+	from {
+		opacity: 0;
+		transform: rotateX(-10deg);
+	}
+	
+	to {
+		opacity: 1;
+		transform: rotateX(0);
+	}
+}
+
+@media screen and (max-width:1023px) {
+.perfil {
+    position: fixed;
+    height: 100%;
+	left: 0;
+    right: 0px;
+    top: 4%;
+	z-index: -4;
+}
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div class="presentacion">
+
+	<p>Bienvenidos,</p>
+	<p>Mi nombre es Rogelio.</p>
+	<p>Soy Desarrollador y diseñador independiente de Panamá.</p>
+</div>
+
+
+<div class="perfil">
+
+	<img class="perfil" src="images\profile.png">
+	
+</div>
+
+</body>
+
+</html>
